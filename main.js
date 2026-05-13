@@ -1,8 +1,8 @@
-// Write your code below
-var bill= 32.15;
+var bill = 32.15;
 
-var tax;
-var tip;
+// Tax and tip based on bill
+var tax = bill * 0.08;
+var tip = bill * 0.20;
 
-
-console.log(/* Calculate the bill here */);
+// Total bill
+var total = bill + tax + tip;
